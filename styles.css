@@ -37,18 +37,20 @@ main p {
 .card {
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  width: max-content;
+  width: fit-content;
   padding: 12px;
   border-top: 5px solid var(--blue);
 }
 main {
   display: flex;
-  flex-direction: row;
   padding: 20px;
   gap: 24px;
 }
 .supervisor {
   align-self: center;
+}
+.teambuilder {
+  margin-bottom: 24px;
 }
 .calculator {
   align-self: center;
