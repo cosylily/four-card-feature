@@ -61,7 +61,7 @@ main .image {
   border-top: 5px solid var(--cyan);
 }
 .teambuilder {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
   border-top: 5px solid var(--red);
 }
 .karma {
