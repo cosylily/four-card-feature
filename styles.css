@@ -33,11 +33,13 @@ main p {
   color: var(--lighter-grey);
   font-weight: 400;
 }
+
 .card {
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: max-content;
   padding: 12px;
+  border-top: 5px solid var(--blue);
 }
 main {
   display: flex;
