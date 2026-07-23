@@ -7,25 +7,29 @@
   --lighter-grey: hsl(212, 6%, 44%);
   --poppins: "Poppins", sans-serif;
 }
+* {
+  font-size: 15px;
+}
 body {
   font-family: var(--poppins);
 }
 header {
   text-align: center;
   margin: 0 auto;
-  max-width: 40vw;
+  max-width: 35vw;
   padding: 20px;
 }
 h2 {
   color: var(--lighter-grey);
   font-weight: 200;
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0px;
 }
 h1 {
   color: var(--dark-grey);
   font-weight: 600;
   margin: 0px;
+  font-size: 2rem;
 }
 header p {
   color: var(--dark-grey);
@@ -34,6 +38,9 @@ header p {
 main h3 {
   color: var(--dark-grey);
   font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0px;
+  margin-top: 20px;
 }
 main p {
   color: var(--lighter-grey);
@@ -72,4 +79,19 @@ main .image {
 .calculator {
   align-self: center;
   border-top: 5px solid var(--blue);
+}
+@media (max-width: 700px) {
+  header {
+    max-width: 100%;
+  }
+  main {
+    display: block;
+  }
+  .card {
+    margin: 40px 0;
+    padding: 20px;
+  }
+  main .image {
+    padding: 15px;
+  }
 }
