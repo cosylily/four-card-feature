@@ -33,3 +33,21 @@ main p {
   color: var(--lighter-grey);
   font-weight: 400;
 }
+.card {
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: max-content;
+  padding: 12px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 24px;
+}
+.supervisor {
+  align-self: center;
+}
+.calculator {
+  align-self: center;
+}
