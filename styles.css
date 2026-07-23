@@ -46,6 +46,10 @@ main {
   padding: 20px;
   gap: 24px;
 }
+main .image {
+  display: flex;
+  justify-content: flex-end;
+}
 .supervisor {
   align-self: center;
 }
