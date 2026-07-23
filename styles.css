@@ -38,7 +38,7 @@ main p {
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: fit-content;
-  padding: 12px;
+  padding: 12px 30px;
 }
 main {
   display: flex;
@@ -48,6 +48,7 @@ main {
 main .image {
   display: flex;
   justify-content: flex-end;
+  padding: 20px;
 }
 .supervisor {
   align-self: center;
