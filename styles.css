@@ -39,7 +39,6 @@ main p {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: fit-content;
   padding: 12px;
-  border-top: 5px solid var(--blue);
 }
 main {
   display: flex;
@@ -52,10 +51,16 @@ main .image {
 }
 .supervisor {
   align-self: center;
+  border-top: 5px solid var(--cyan);
 }
 .teambuilder {
   margin-bottom: 24px;
+  border-top: 5px solid var(--red);
+}
+.karma {
+  border-top: 5px solid var(--orange);
 }
 .calculator {
   align-self: center;
+  border-top: 5px solid var(--blue);
 }
