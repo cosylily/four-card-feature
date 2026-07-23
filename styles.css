@@ -37,11 +37,11 @@ main p {
 .card {
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  width: fit-content;
-  padding: 12px 30px;
+  padding: 12px 40px;
 }
 main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
   gap: 24px;
 }
